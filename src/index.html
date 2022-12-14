@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raahim's Cameras</title>
+    <!-- Load Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <!-- Load our css -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Raahim's Toronto Traffic Cameras</h1>
+    </header>
+
+    <div id="app">
+        <nav>
+            
+        </nav>
+
+        <main>
+            <div id="images" class="hidden">
+                <img id="camera-image">
+                <div id="directions"></div>
+            </div>
+
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <!-- Load Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin="">
+    </script>
+    <!-- Load Traffic Date -->
+    <script src="traffic-cameras.js"></script>
+    <!-- Load Main Scripts -->
+    <script src="index.js"></script>
+</body>
+</html>

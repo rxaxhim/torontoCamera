@@ -1,0 +1,14 @@
+{
+  "name": "cameraapp",
+  "version": "1.0.0",
+  "description": "Displays Live Toronto Camera Output",
+  "scripts": {
+    "server": "lite-server --baseDir=\"src\"",
+    "start": "npm run server"
+  },
+  "author": "Raahim Ghori",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
